@@ -1,6 +1,8 @@
+package MyFirstSharing;
+
 import java.util.Scanner;
 
-public class UUsernamePassword {
+public class UsernamePassword {
     public static void control(String uName, String password){
         if(uName.equals("") && password.equals("")) {
             System.out.println("UserName and Password Fields cannot be empty");
